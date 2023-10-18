@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    float:left;
+    font-size:1em;
+    font-family: 'Shadows Into Light', cursive;
+    margin:10px 0px 5px 30px;
+}
+nav{
+    margin:10px 0px 0px 0px;
+}
+img {
+    width: 130px;
+    height: 130px;
+}
+header {
+    position: fixed;
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+a:link {
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    margin:15px 10px 10px 0px;
+    padding: 5px 5px 5px 5px;
+}
+header li {
+    list-style: none;
+    text-decoration: none;
+    float: right;
+}
+h2 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px 20px 20px 20px;
+}
+.main {
+    background-image: url(img/miskas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.main img {
+    margin: 100px 350px;
+    width: 50%;
+    height: 50%;
+}
+.sekcija2{
+    height:100%;
+}
+.gydomieji {
+    display: flex;
+}
+.gydomieji1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px 0px 40px 80px;
+}
+.gydomieji2 {
+    display: flex;;
+    flex-direction: column;
+    justify-content:right;
+    margin: 40px 30px 40px 0px;
+}
+.augalas1, .augalas2, .augalas3, .augalas4, .augalas5, .augalas6{
+    display:flex;
+    gap:10px;
+    margin:20px 20px 20px 20px;
+}
+.gydomieji p{
+    margin: 30px 0px 30px 5px;
+}
+.nykstantys {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 30px 40px 80px;
+    gap:50px;
+}
+.nykstantys1, .nykstantys2, .nykstantys3, .nykstantys4 {
+    display: flex;
+    gap:50px;
+}
+.sekcija4 img {
+    height: 100vh;
+    width: 100vw;
+}
+.sekcija4 {
+    margin: 30px 10px 30px 10px;
+}
+.miskas {
+    display: flex;
+    flex-direction: row;
+}
+.miskas p{
+    margin: 10px 35px 20px 65px;
+}
+footer {
+    color:lightgrey;
+    display:flex;
+    flex-direction: row;
+    font-size: 1em;
+    gap:525px;
+    margin:5px 10px 10px 20px;
+}
+@media only screen and (max-width:350px){
+    .container{
+        display:flex;
+        flex-direction: row;
+    }
+    header { 
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        height: 50px;
+        background-color: white;
+        overflow: hidden;
+    }
+    i{
+        display:block;
+        border-top:2px solid black;
+        margin:3px 0px 3px 2px;
+    }
+    h2{
+        margin:0, auto;
+        text-align: center;
+    }
+    .sekcija1{
+        justify-content: center;
+    }
+    .main {
+        background-image: url(img/miskas.jpg);
+        background-size: 100% 100%;
+    }
+    .main img {
+        margin: 120px 80px;
+    }
+    .sekcija2{
+        justify-content: center;
+        height:28%;
+        margin: 20px 20px 20px 20px;
+    }
+    .gydomieji{
+        display:block;
+        justify-content: center;
+    }
+    .gydomieji1{
+        display:block;
+        text-align: center;
+        margin:0px 5px 0px 5px;
+    }
+    .gydomieji2{
+        display:block;
+        text-align: center;
+    }
+    .sekcija3{
+        justify-content: center;
+    }
+    .augalas1, .augalas2, .augalas3, .augalas4, .augalas5, .augalas6{
+        display:block;
+        margin: 5px 0px 5px 20px;
+    }
+    .nykstantys{
+        display:block;
+        justify-content: center;
+        margin:5px 5px 5px 65px;
+    }
+    .sekcija4{
+        display:block;
+    }
+    .sekcija4 img{
+        width:50vh;
+        height:50vw;
+    }
+    .miskas{
+        display:block;
+    }
+    .miskas p{
+        margin:5px 5px 0px 5px;
+    }
+    .nykstantys1, .nykstantys2, .nykstantys3, .nykstantys4 {
+        display: block;
+    }
+        }
